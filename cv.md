@@ -34,3 +34,10 @@ sum(a, b);
 
 ## Projects
 [CV](https://idmit.github.io/rsschool-cv/cv)
+
+## Education
++ Belarusian National Technical University / Faculty of Marketing, Management, Entrepreneurship
+
+## Languages 
++ Russian(native speaker)
++ English (A2)
