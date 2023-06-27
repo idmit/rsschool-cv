@@ -13,3 +13,24 @@
 Immediately after university, I opened a small business in the field of trade. After 2 years, I realized that I do not see myself in trading. I decided to become a front-end developer.
 I love learning and discovering new things! I am able to multitask and quickly find solutions.
 
+## Skills 
++ HTML5 
++ CSS3
++ JS (basics)
++ Git, Github
+
+## Code Example
+```
+let a = 5;
+let b = 7;
+
+function sum(a, b) {
+  sum = a + b;
+  console.log(sum);
+}
+
+sum(a, b);
+```
+
+## Projects
+[CV](https://idmit.github.io/rsschool-cv/cv)
