@@ -33,3 +33,42 @@ body {
 	margin: 0 auto;
 	min-height: 50px;
 }
+
+.header-logo {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+.portfolio-link {
+	text-decoration: none;
+	color: #323232;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+	margin-top: 0;
+	list-style-type: none;
+}
+
+.nav-link {
+	padding: 0 20px;
+	text-decoration: none;
+	line-height: 50px;
+	font-weight: 600;
+	color: #323232;
+	transition: all 0.2s;
+}
+
+.nav-item:hover {
+	transform: scale(1.2);
+	transition: all 0.2s;
+}
+
+.nav-link:hover {
+	color: #ffffff;
+}
+
