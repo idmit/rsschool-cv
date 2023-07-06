@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: "DM sans", sans-serif;
+}
+
+.header {
+	background-color: #d6e2d9;
+}
+
+.footer {
+	padding: 10px;
+	min-height: 100px;
+	background-color: #d6e2d9;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	min-height: 50px;
+}
