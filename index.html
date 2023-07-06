@@ -3,7 +3,124 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="assets/img_cv.ico" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Bacasime+Antique&family=Caudex&family=DM+Sans&family=Federo&family=Krona+One&family=Montserrat&family=Raleway&family=Roboto:wght@300;400&family=Space+Grotesk&family=Syne&family=Ysabeau+Office&display=swap" rel="stylesheet">
+	<title>Cv</title>
 </head>
-<body></body>
+<body>
+	<header class="header">
+		<div class="header-logo"><a href="#profile" class="portfolio-link">Portfolio.</a></div>
+		<div class="container">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item">
+						<a href="#contacts" class="nav-link">Contacts</a>
+					</li>
+					<li class="nav-item">
+						<a href="#about-me" class="nav-link">About me</a>
+					</li>
+					<li class="nav-item">
+						<a href="#skills" class="nav-link">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a href="#code" class="nav-link">Code</a>
+					</li>
+					<li class="nav-item">
+						<a href="#courses" class="nav-link">Courses</a>
+					</li>
+					<li class="nav-item">
+						<a href="#projects" class="nav-link">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a href="#education" class="nav-link">Education</a>
+					</li>
+					<li class="nav-item">
+						<a href="#language" class="nav-link">Language</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container main-container">
+			<section class="section section-profile" id="profile">
+				<img src="assets/img1.jpg" alt="cv-photo" class="section-profile-photo">
+				<div class="section-profile-title">
+					<h1 class="section-title main-title">
+						<span class="title-name">Dzmitry Sidarovich</span>
+					</h1>
+					<h3 class="section-subtitle">Junior Front-End Developer</h3>
+				</div>
+			</section>
+			<section class="section" id="contacts">
+				<h2 class="section-title">Contacts</h2>
+				<ul>
+					<li class="section-item">location: Minsk, Belarus</li>
+					<li class="section-item">email: <a href="mailto:dma.biz@yandex.by">dma.biz@yandex.by</a></li>
+					<li class="section-item">discord: <a href="https://discord.com/invite/zUr7wWYPXE">dmit.qxq</a></li>
+					<li class="section-item">telegram: <a href="https://t.me/ixdmaa">@ixdmaa</a></li>
+					<li class="section-item">github: <a href="https://github.com/idmit">idmit</a></li>
+				</ul>
+			</section>
+			<section class="section" id="about-me">
+				<h2 class="section-title">About me</h2>
+				<p>Immediately after university, I opened a small business in the field of trade. After 2 years, I realized that
+					I do not see myself in trading. I decided to become a front-end developer.
+					I love learning and discovering new things! I am able to multitask and quickly find solutions.</p>
+			</section>
+			<section class="section" id="skills">
+				<h2 class="section-title">Skills</h2>
+				<ul>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JS(basics)</li>
+					<li>Git, Github</li>
+				</ul>
+			</section>
+			<section class="section" id="code">
+				<h2 class="section-title">Code</h2>
+				<pre><code>function factorial(n) {
+   if(n &lt; 0) return null;
+   if (n &lt;= 1) return 1;
+   return n * factorial(n-1);
+}</code></pre>
+			</section>
+			<section class="section" id="courses">
+				<h2 class="section-title">Courses</h2>
+				<ul>
+					<li class="section-item"><a href="https://code-basics.com/ru/languages/html">HTML course </a>(completed)</li>
+					<li class="section-item"><a href="https://code-basics.com/ru/languages/css">CSS course </a>(completed)</li>
+				</ul>
+			</section>
+			<section class="section" id="projects">
+				<h2 class="section-title">Projects</h2>
+				<ul>
+					<li class="section-item"><a href="https://idmit.github.io/rsschool-cv/">CV</a></li>
+				</ul>
+			</section>
+			<section class="section" id="education">
+				<h2 class="section-title">Education</h2>
+				<p>Belarusian National Technical University / Faculty of Marketing, Management, Entrepreneurship</p>
+			</section>
+			<section class="section" id="language">
+				<h2 class="section-title">Language</h2>
+				<p>Russian (native speaker)<br>
+					English (A2)
+				</p>
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container footer-container">
+			<div>
+				<span class="bold-2023">&#9400; 2023</span>
+				<a href="https://github.com/idmit" class="github nav-link">idmit</a>
+			</div>
+			<a href="https://rs.school/js/" class="rss"></a>
+		</div>
+	</footer>
+</body>
 </html>
